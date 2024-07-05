@@ -5,8 +5,9 @@ The data is not large, so it is not neccessary to create a csv to store the data
 
 Assumption
 1. Customer is limited to buy 1 drinks for each payment.
-2. The amount is listed under currency Malaysia Ringgit (RM).
-3. The vending machine is only accept for notes RM1, 5, 10, 20, and 50.
+2. Customer can repeat the purchase many times to purchase multiple drinks.
+3. The amount is listed under currency Malaysia Ringgit (RM).
+4. The vending machine is only accept for notes RM1, 5, 10, 20, and 50.
 
 Instruction to Use The Vendorint Machine
 
