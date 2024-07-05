@@ -8,6 +8,9 @@ Assumption
 2. The amount is listed under currency Malaysia Ringgit (RM).
 3. The vending machine is only accept for notes RM1, 5, 10, 20, and 50.
 
+Instruction to Use The Vendorint Machine
+
+
 Variable Used Explanation
 1. drinks
 2. money_list
@@ -18,4 +21,10 @@ Variable Used Explanation
 
 
 Function Defined
-1. 
+1. main()
+2. order()
+3. check_money()
+4. purchase()
+5. num_notes(balance)
+
+   
