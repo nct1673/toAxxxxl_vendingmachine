@@ -27,12 +27,14 @@ The data is not large, so it is not neccessary to create a csv to store the data
 7. The details of notes will be shown.
 
 # Variable Used Explanation
-1. drinks
-2. money_list
-3. df
-4. price
-5. sum
-6. n_50 (same meaning for n_20, 10, 5, and 1)
+1. drinks - A dictionary about details of drinks item.
+2. money_list - A list of integer, the amount of notes that machine accepted.
+3. df - A data frame, convert drinks from dictionary to data frame, then we use pandas library to read the dataset.
+4. price - A integer, represent the price of the drinks that selected by customer.
+5. insert_sum - A integer, record the total amount of money that inserted by customer
+6. n_50 (same meaning for n_20, 10, 5, and 1) - A integer, represent the number of notes RM 50 needed in the balance.
+7. balance_table - A data frame that record the number of notes needed for each amount, this data frame will show in user interface.
+8. balance_copy - A integer, copy of the balance amount, the variable balance will be updated when computing the number of notes needed, this variable used to show    the amount of balance to customer.
 
 
 # Function Defined
