@@ -41,11 +41,11 @@ The data is not large, so it is not neccessary to create a csv to store the data
 
 
 # Function Defined
-1. main()
-2. order()
-3. check_money()
-4. purchase()
-5. num_notes(balance)
+   
 | Function Name |  Description |
 | ------------- |  ------------- |
-| main() |  |   
+| main() | The main function to run the vendoring machine |   
+| order() | Request customer to enter the ID of drinks selected, and show the details of drinks selected |
+| check_money(x) | Verify that the amount enter by customer, exp: RM2 is invalid but RM5 is valid |
+| purchase() | Request customer to insert money, and compute the balance that need to give back to customer |
+| num_notes(balance) | Compute the number of notes for each amount of notes, so that the number of notes is least |
