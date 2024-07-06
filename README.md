@@ -26,15 +26,18 @@ The data is not large, so it is not neccessary to create a csv to store the data
 6. Once you have insert enough money, the system will compute the balance and also the number of notes that have least number of notes.
 7. The details of notes will be shown.
 
-# Variable Used Explanation
-1. drinks - A dictionary about details of drinks item.
-2. money_list - A list of integer, the amount of notes that machine accepted.
-3. df - A data frame, convert drinks from dictionary to data frame, then we use pandas library to read the dataset.
-4. price - A integer, represent the price of the drinks that selected by customer.
-5. insert_sum - A integer, record the total amount of money that inserted by customer
-6. n_50 (same meaning for n_20, 10, 5, and 1) - A integer, represent the number of notes RM 50 needed in the balance.
-7. balance_table - A data frame that record the number of notes needed for each amount, this data frame will show in user interface.
-8. balance_copy - A integer, copy of the balance amount, the variable balance will be updated when computing the number of notes needed, this variable used to show    the amount of balance to customer.
+# Variable Used and Its Explanation
+
+| Variable Name | Variable Type | Description |
+| ------------- | ------------- | ------------- |
+| drinks  | dictionary  | Details of each item, including ID, drinks name, and price |
+| money_list  | list  | A list of notes amount that machine accepted |
+| df  | data frame  | Convert drinks from dictionary to data frame so that we can use pandas library later |
+| price  | integer  | The price of the drinks that selected by customer |
+| insert_sum  | integer  | The total amount of money that inserted by customer |
+| n_50  | integer  | The number of notes RM 50 needed in the balance (Same meaning for variables n_20, n_10, n_5, and n_1) |
+| balance_table  | data frame  | The number of notes needed for each amount, this table will show to customer |
+| balance_copy  | integer  | A copy of the balance amount, the variable balance will be updated when computing the number of notes needed, this variable used to show the amount of balance to customer |
 
 
 # Function Defined
@@ -43,5 +46,6 @@ The data is not large, so it is not neccessary to create a csv to store the data
 3. check_money()
 4. purchase()
 5. num_notes(balance)
-
-   
+| Function Name |  Description |
+| ------------- |  ------------- |
+| main() |  |   
