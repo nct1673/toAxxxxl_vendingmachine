@@ -8,7 +8,7 @@ The data is not large, so it is not neccessary to create a csv to store the data
 2. Customer can repeat the purchase many times to purchase multiple drinks.
 3. The amount is listed under currency Malaysia Ringgit (RM).
 4. The vending machine is only accept for notes RM1, 5, 10, 20, and 50.
-5. The vending machine will keep request customer to insert notes until the amount insert is >= the price of item selected.
+5. The vending machine will keep request customer to insert notes until the amount inserted is >= the price of item selected.
 
 # Logic About The Least Amount of Notes
 1. Since all of the items have price less that RM 50, if customer insert a RM50 notes, the machine will start to compute the balance amount.
@@ -17,7 +17,7 @@ The data is not large, so it is not neccessary to create a csv to store the data
 4. For n_10 and n_5 cases, using same idea with (2.) to compute the number of notes needed.
 5. If balance < RM5, we use RM1 for the balance since there is no other choices.
 
-# Instruction to Use The Vendorint Machine
+# Instruction to Use The Vendoring Machine
 1. When run the code, the system will show the ID, drinks, and price for each items.
 2. You have to select the drinks by enter the ID of the drinks.
 3. The system will show the details of drinks that you selected, and also the price you have to pay.
